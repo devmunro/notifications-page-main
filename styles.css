@@ -13,7 +13,6 @@ body {
 main {
   background-color: hsl(0, 0%, 100%);
   width: 50%;
-  
 }
 
 /* title styles*/
@@ -28,63 +27,61 @@ section {
 .title-wrapper {
   display: flex;
   align-items: center;
-  
 }
 
 section > p {
-    color: hsl(219, 14%, 63%);
-    font-weight: 100;
-    
-
+  color: hsl(219, 14%, 63%);
+  font-weight: 100;
 }
 
 h1 {
-    
 }
 .box-number {
-    background-color: blue;
-    border: white solid 1px;
-    border-radius: 20%;
-    padding: 0px 10px;
-    margin-left: 10px;
-
-
+  background-color: blue;
+  border: white solid 1px;
+  border-radius: 20%;
+  padding: 0px 10px;
+  margin-left: 10px;
 }
 .box-number p {
-    line-height: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
+  line-height: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 /* list style */
 
 ul {
-    list-style: none;
-    padding: 0 20px;
-    
+  list-style: none;
+  padding: 0 20px;
 }
 
-
 li {
-    background-color: hsl(211, 68%, 94%);
-    margin: 10px;
-    padding: 20px;
-    display: flex;
+  background-color: hsl(211, 68%, 94%);
+  margin: 10px;
+  padding: 20px;
+  display: flex;
 }
 
 img {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 /* notications text styles */
 
 .text-group p:first-child {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .text-group p:nth-child(2) {
-    color: hsl(219, 14%, 63%);
-    margin-top: 1px;
+  color: hsl(219, 14%, 63%);
+  margin-top: 1px;
+}
+
+blockquote {
+  border: black solid 1px;
+  padding: 10px;
+  background-color: white;
 }
