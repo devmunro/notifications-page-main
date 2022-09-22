@@ -76,6 +76,10 @@ img {
   height: 70px;
 }
 
+span {
+    display: inline;
+}
+
 /* notications text styles */
 
 .text-group p:first-child {
