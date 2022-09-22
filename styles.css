@@ -30,6 +30,8 @@ section {
 }
 
 section > p {
+  /*Mark all as read */
+  cursor: pointer;
   color: hsl(219, 14%, 63%);
   font-weight: 100;
 }
@@ -65,8 +67,8 @@ li {
 }
 
 .active {
-    background-color: hsl(211, 68%, 94%);
-    cursor: pointer;
+  background-color: hsl(211, 68%, 94%);
+  cursor: pointer;
 }
 
 img {
