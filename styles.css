@@ -12,7 +12,7 @@ body {
 /*box styles*/
 main {
   background-color: hsl(0, 0%, 100%);
-  width: 70%;
+  width: 50%;
   
 }
 
@@ -76,4 +76,10 @@ li {
 img {
     width: 70px;
     height: 70px;
+}
+
+/* notications text styles */
+
+.text-group p:last-child {
+    color: hsl(219, 14%, 63%);
 }
