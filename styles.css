@@ -80,6 +80,11 @@ img {
 
 /* notications text styles */
 
-.text-group p:last-child {
+.text-group p:first-child {
+    margin-bottom: 0px;
+}
+
+.text-group p:nth-child(2) {
     color: hsl(219, 14%, 63%);
+    margin-top: 1px;
 }
