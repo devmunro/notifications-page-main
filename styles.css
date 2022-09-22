@@ -13,6 +13,7 @@ body {
 main {
   background-color: hsl(0, 0%, 100%);
   width: 50%;
+  margin: 20px;
 }
 
 /* title styles*/
