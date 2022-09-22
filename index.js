@@ -3,8 +3,13 @@ const notifcationsBar = document.querySelector("ul");
 const notifcations = document.querySelectorAll("li");
 const svgDot = document.querySelectorAll("svg");
 
+// notifcations number
 const notificationsNumber = document.querySelector(".notificationsNumber") 
-console.log(notificationsNumber)
+const number = document.getElementsByClassName("active").length
+notificationsNumber.textContent = number 
+
+
+// remove class function 
 let removeClass = () => {
 
     for (let i = 0; i< notifcationsBar.children.length; i++) {
@@ -17,8 +22,8 @@ let removeClass = () => {
 
         }
 
-        
         notificationsNumber.textContent = "0";
+        
     }
 
 
