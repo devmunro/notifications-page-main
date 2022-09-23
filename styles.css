@@ -12,7 +12,7 @@ body {
 /*Main styles*/
 main {
   background-color: hsl(0, 0%, 100%);
-  width: 60%;
+  width: 50%;
   margin: 20px;
   border-radius: 3%;
 }
@@ -66,7 +66,7 @@ ul {
 li {
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
 }
 
@@ -128,7 +128,7 @@ p a:nth-child(2):hover {
 a > blockquote {
   color: hsl(219, 14%, 63%);
   font-weight: normal;
-  width: 60%;
+  width: 50%;
 }
 
 blockquote:hover {
