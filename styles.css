@@ -38,10 +38,8 @@ section > p {
   font-weight: 100;
 }
 
-h1 {
-}
 .box-number {
-  background-color: blue;
+  background-color: hsl(219, 85%, 26%); /*dark blue*/
   border: white solid 1px;
   border-radius: 20%;
   padding: 0px 10px;
@@ -59,15 +57,13 @@ h1 {
 ul {
   list-style: none;
   padding: 0 20px;
-  
 }
 
 li {
- background-color: white;
+  background-color: white;
   margin: 10px;
   padding: 20px;
   display: flex;
-  
 }
 
 .active {
@@ -81,7 +77,6 @@ img {
   height: 60px;
 }
 .commented-image {
-
   width: 50px;
   height: 50px;
   margin-left: 8em;
@@ -123,7 +118,7 @@ p a:nth-child(2):hover {
   color: hsl(219, 85%, 26%);
 }
 
- a > blockquote {
+a > blockquote {
   color: hsl(219, 14%, 63%);
   font-weight: normal;
   width: 90%;
@@ -136,36 +131,32 @@ blockquote:hover {
 /* media queries */
 
 @media screen and (max-width: 1000px) {
-    main {
-      width: 75%;
-    }
+  main {
+    width: 75%;
   }
-
-  @media screen and (max-width: 750px) {
-body {
-font-size: 0.75rem;
-
 }
 
-    main {
-      width: 97%;
-      margin: 0;
-    }
-
-    li {
-        padding: 2px;
-        margin: 5px;
-    }
-
-    a > blockquote {
-        width: 100%;
-        margin-left: 0px;
-
-    }
-
-    .commented-image {
-        margin-left: 1rem;
-    }
-
-
+@media screen and (max-width: 750px) {
+  body {
+    font-size: 0.75rem;
   }
+
+  main {
+    width: 97%;
+    margin: 0;
+  }
+
+  li {
+    padding: 2px;
+    margin: 5px;
+  }
+
+  a > blockquote {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .commented-image {
+    margin-left: 1rem;
+  }
+}
