@@ -20,14 +20,16 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Overview
 
+Notifications Page challenge COMPLETED - from Frontend Mentor :)
+
 ### The challenge
 
 Users should be able to:
 
-- Distinguish between "unread" and "read" notifications
-- Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- Distinguish between "unread" and "read" notifications ##CHECK
+- Select "Mark all as read" to toggle the visual state of the unread  notifications and set the number of unread messages to zero ##CHECK
+- View the optimal layout for the interface depending on their device's screen size ##CHECK
+- Hover states for all interactive elements on the page ##CHECK, but did not do focus states
 
 ### Screenshot
 
