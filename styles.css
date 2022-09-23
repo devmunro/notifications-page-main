@@ -75,12 +75,15 @@ li {
 }
 
 img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
-
-span {
-    display: inline;
+.commented-image {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    
 }
 
 /* notications text styles */
