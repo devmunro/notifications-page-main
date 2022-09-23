@@ -1,3 +1,4 @@
+// Global variables
 const markAllRead = document.querySelector(".markAllRead");
 const notifcationsBar = document.querySelector("ul");
 const notifcations = document.querySelectorAll("li");
@@ -28,4 +29,5 @@ let removeClass = () => {
 
 
 }
+//Mark all read click event
 markAllRead.addEventListener("click", removeClass);

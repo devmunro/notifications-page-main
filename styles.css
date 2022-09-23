@@ -9,7 +9,7 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/*box styles*/
+/*Main styles*/
 main {
   background-color: hsl(0, 0%, 100%);
   width: 50%;
@@ -17,7 +17,7 @@ main {
   border-radius: 3%;
 }
 
-/* title styles*/
+/* section styles*/
 
 section {
   display: flex;
@@ -36,6 +36,10 @@ section > p {
   cursor: pointer;
   color: hsl(219, 14%, 63%);
   font-weight: 100;
+}
+
+section > p:hover {
+    color: hsl(219, 85%, 26%);
 }
 
 .box-number {
@@ -72,6 +76,8 @@ li {
   cursor: pointer;
 }
 
+
+/* image styles */
 img {
   width: 60px;
   height: 60px;
