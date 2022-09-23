@@ -4,7 +4,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: hsl(211, 68%, 94%);
+  background-color: hsl(210, 60%, 98%);
   font-size: 16px;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -69,7 +69,8 @@ li {
 }
 
 .active {
-  background-color: hsl(210, 60%, 98%);
+  background-color: hsl(210, 60%, 98%); 
+  /*was looking to use hsl(211, 68%, 94%) instead but it looked to dark, #colorblind*/
   cursor: pointer;
 }
 
