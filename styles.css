@@ -69,7 +69,7 @@ li {
 }
 
 .active {
-  background-color: hsl(210, 60%, 98%); 
+  background-color: hsl(210, 60%, 98%);
   /*was looking to use hsl(211, 68%, 94%) instead but it looked to dark, #colorblind*/
   cursor: pointer;
 }
@@ -79,11 +79,10 @@ img {
   height: 60px;
 }
 .commented-image {
-    float: right;
-    width: 50px;
-    height: 50px;
-    margin-left: 100px;
-    
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin-left: 10em;
 }
 
 /* notications text styles */
@@ -103,33 +102,32 @@ blockquote {
   background-color: white;
 }
 
-
 /* link styles */
 a {
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
-    color: hsl(219, 85%, 26%)
+  color: hsl(219, 85%, 26%);
 }
 
 p a:nth-child(2) {
-
-    color:hsl(219, 14%, 63%)
+  color: hsl(219, 14%, 63%);
 }
 
 p a:nth-child(2):hover {
-    color: hsl(219, 85%, 26%)
+  color: hsl(219, 85%, 26%);
 }
 
 a > blockquote {
-    color:hsl(219, 14%, 63%);
-    font-weight: normal;
+  color: hsl(219, 14%, 63%);
+  font-weight: normal;
 }
 
 blockquote:hover {
-
-    background-color: hsl(211, 68%, 94%);
+  background-color: hsl(211, 68%, 94%);
 }
+
+/* media queries */
